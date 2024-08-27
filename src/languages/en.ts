@@ -718,6 +718,7 @@ export default {
         share: 'Share',
         participants: 'Participants',
         submitExpense: 'Submit expense',
+        PaymentComplete: 'Payment Complete',
         trackExpense: 'Track expense',
         pay: 'Pay',
         cancelPayment: 'Cancel payment',

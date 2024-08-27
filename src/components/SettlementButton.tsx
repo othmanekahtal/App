@@ -294,7 +294,10 @@ function SettlementButton({
             return;
         }
 
-        playSound(SOUNDS.DONE);
+        playSound(SOUNDS.SUCCESS);
+        buttonOptions.push({
+            text: translate('iou.PaymentComplete')
+        });
         onPress(iouPaymentType);
     };
 
